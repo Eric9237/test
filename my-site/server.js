@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path'); // ⬅️ 加這一行！
 
 const app = express();
-const port = 80;
+const port = 3000;
 
 // 靜態資料夾
 app.use(express.static('public'));
